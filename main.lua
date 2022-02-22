@@ -26,7 +26,7 @@
 	| DOCUMENT API |
 	==================================================================================================================================
 
-	API of document here
+	[coming soon]
 
 	----------------------------------------------------------------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@
 	| DOCUMENT CHANGELOG |
 	==================================================================================================================================
 
-	[Version 0.0.0.0]
+	[Version v2.76.14.25]
 
 		-   changes made
 
@@ -434,7 +434,7 @@ local textBody = DynamicText:compileText("/$playerName $add(1, $add(1, 0)) <labe
 		font = Enum.Font.ArialBold,
 	},
 	localVariables = {
-		playerName = "ScriptGuider",
+		playerName = "Will",
 		preset1 = "font=code; bgColor=purple; bgTransparency=0",
 		pi = math.pi,
 	},
