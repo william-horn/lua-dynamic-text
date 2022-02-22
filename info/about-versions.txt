@@ -1,0 +1,15 @@
+? @document-start
+? @version-help
+==================
+| ABOUT VERSIONS |
+==================================================================================================================================
+
+? @author:                 William J. Horn
+? @document-name:          about-versions.txt
+? @document-created:       02/22/2022
+? @document-modified:      02/22/2022
+? @document-version:       N/A
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Updated source: https://github.com/william-horn/my-coding-conventions/blob/main/document-conventions/about-versions.txt

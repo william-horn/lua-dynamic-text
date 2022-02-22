@@ -1,0 +1,53 @@
+? @document-start
+=====================
+| ABOUT ANCHOR TAGS |
+==================================================================================================================================
+
+? @author:                 William J. Horn
+? @document-name:          about-anchor-tags.txt
+? @document-created:       02/22/2022
+? @document-modified:      02/22/2022
+? @document-version:       1.0
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Updated source: https://github.com/william-horn/my-coding-conventions/blob/main/document-conventions/about-anchor-tags.txt
+
+The typical search tags are as follows, but depending on the purpose of the document there may be more or less (there should be
+no space between '@' and the anchor name when searching for it using your text editor):
+
+-- inline anchors --
+
+@anchor-help: @ author                                 ! Locate author(s) of the document
+@anchor-help: @ document-start                         ! Locate the top of the document
+@anchor-help: @ document-end                           ! Locate the bottom of the document
+@anchor-help: @ document-name                          ! Locate the file name of the document
+@anchor-help: @ document-created                       ! Locate the date the document was created on
+@anchor-help: @ document-modified                      ! Locate the date the document was last changed
+@anchor-help: @ document-version                       ! Locate the version of the document according to the author(s)
+@anchor-help: @ document-about                         ! Locate verbose information about the document
+@anchor-help: @ document-api                           ! Locate the API if the document is a library
+@anchor-help: @ document-changelog                     ! Locate information about the changelog
+@anchor-help: @ document-todo                          ! Locate the document to-do list
+@anchor-help: @ document-main                          ! Points to the main function of the document
+@anchor-help: @ document-metadata                      ! Points to the metadata (or initial setup phase) of the document
+@anchor-help: @ marker:"comment"                       ! Points to any arbitrary marker spot in a document
+@anchor-help: @ <file-type>:"comment"                  ! (Similar to @marker) Points to a marker specific to a given file type. (ex. @html:"something") 
+@anchor-help: @ changelog-date:xx/xx/xxxx              ! Points to a specific change log tab for a given date
+@anchor-help: @ changelog-records                      ! Points to the change log repository for a document
+
+-- block anchors --
+
+@anchor-help: @ changelog-record:change[id]:start      ! Target all change record code blocks within a program file
+@anchor-help: @ changelog-record:end                   ! Target all ending instances of a change record block within a program file
+@anchor-help: @ debug-on:start:"comment"               ! Points to an active debug feature in the program file 
+@anchor-help: @ debug-off:start:"comment"              ! Points to an inactive debug feature in the program file
+@anchor-help: @ debug-on:end                           ! Points to ending instance of an active debug block
+@anchor-help: @ debug-off:end                          ! Points to ending instance of an inactive debug block
+@anchor-help: @ bug:start:"comment"                    ! Points to any marker left where a bug exists
+@anchor-help: @ bug:end                                ! Points to ending instance of bug tag 
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+~Will
+? @document-end

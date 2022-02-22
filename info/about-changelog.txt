@@ -1,0 +1,15 @@
+? @document-start
+? @changelog-help
+=====================
+| CHANGE LOG SYSTEM |
+==================================================================================================================================
+
+? @author:                 William J. Horn
+? @document-name:          about-changelog.txt
+? @document-created:       02/19/2022
+? @document-modified:      02/19/2022
+? @document-version:       2.1
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Updated source: https://github.com/william-horn/my-coding-conventions/blob/main/document-conventions/about-changelog.txt
